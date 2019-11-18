@@ -1,0 +1,87 @@
+/* BIG Website */
+
+html {
+    background-color:#ccc;
+}
+
+main {
+    background-color:#fff;
+    width:80%;
+    border:1px solid black;
+    margin:auto;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+section {
+    float:left;
+    width:64%;
+}
+
+aside {
+    float:right;
+    width:34%;
+}
+
+footer {
+    padding:1em;
+    text-align:center;
+    clear:both;
+}
+
+img {
+    width:100%;
+    border:1px solid #000;
+}
+
+div.gallery {
+    text-align:center;
+}
+
+figure {
+    display:inline-block;
+    margin:.25%;
+}
+
+
+/* MOBILE STYLES */
+
+@media all and (max-width:600px) {
+    
+        main {
+        width:100%;
+        border:1px solid black;
+        margin:auto;
+    }
+    
+        section {
+        float:none;
+        width:100%;
+        
+    }
+
+        aside {
+        float:none;
+        width:100%;
+    }
+    
+}
+
+/* EMBEDDED STYLES */
+
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+} 
+
+.embed-container iframe { 
+    position: absolute; 
+    top: 0; left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
